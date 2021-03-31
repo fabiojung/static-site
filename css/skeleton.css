@@ -127,6 +127,21 @@ body {
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
 
+header {
+  width: auto;
+  height: 80px;
+  background-color: gray;
+}
+
+main {
+  min-height: calc(100vh - 180px);
+}
+
+footer {
+  width: auto;
+  height: 100px;
+  background-color: gray;
+}
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -391,7 +406,9 @@ hr {
   display: table;
   clear: both; }
 
-
+.main-box {
+  margin-top: 25%;
+}
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*
